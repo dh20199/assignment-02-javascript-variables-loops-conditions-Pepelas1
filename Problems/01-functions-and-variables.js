@@ -145,9 +145,9 @@ function typeTester (unknown) {
   } else if (typeof unknown == "number") {
     return (unknown*unknown);
   } else if (typeof unknown == "null") {
-    return "sorry, I can\'t do anything with a null value.";
+    return "Sorry, I cannot do anything with a null value.";
   } else {
-    return"I don\'t know how to use that kind of variable.";
+    return"I do not know how to use that kind of variable.";
   }
   }
   
