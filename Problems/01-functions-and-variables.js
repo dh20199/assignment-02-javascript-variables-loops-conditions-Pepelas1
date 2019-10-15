@@ -65,10 +65,13 @@ function greeting(name) {
  * @param {} third
  * @returns {array} 
  */
-function returnArray (first, second, third) {
-  let bigThree = ['George Clemenceau' , 'David Lloyd George' , 'Woodrow Wilson'];
-  // you can define the array using "new Array ()" or just "[ , , ]"
-  // don't forget to return it
+function returnArray () {
+  let first= 'George Clemenceau';
+  let second= 'David Lloyd George';
+  let third= 'Woodrow Wilson';
+  let bigThree= [first , second , third];
+  return bigThree +  ' ' + 'were the Big Three leaders of the peace process following WWI.'; 
+  
 }
 
 
