@@ -31,7 +31,7 @@
  * @returns {string} should be exactly "Hello!"
  */
 function hello() {
-  return "Hello!";
+  return 'Hello!';
 
 }
 
@@ -65,7 +65,7 @@ function greeting(name) {
  * @returns {array} 
  */
 function returnArray(first, second, third) {
-  let array= [first, second, third]
+  let array= [first, second, third];
   return array; 
   
 }
@@ -85,13 +85,11 @@ function returnArray(first, second, third) {
  * @returns {string} a sentence  composed from the first 3 elements of the array
  */
 function splitArray(thisArray) {
-  return thisArray[0] + " " + thisArray[1] + " " + "was a " + thisArray[2] + "."
-
-  }
-  // remember you can access individual elements of an array with
-  // array[0]
-  // array[1]
-  // etc.
+  return thisArray[0] + ' ' + thisArray[1] + ' '+ 'was a ' + thisArray[2] + '.';}
+// remember you can access individual elements of an array with
+// array[0]
+// array[1]
+// etc.
 
 
 
@@ -114,15 +112,15 @@ function subtract(number1, number2) {
 // "I can only subtract numbers."
 
 function carefulSubtract (a, b) {
-  if (typeof a=="number"&&typeof b=="number") {
-    return a-b;
-   } else {
-     return "I can only subtract numbers.";
-   }
+  if (typeof a=='number'&&typeof b=='number') {
+    return a-b; 
+  } else {
+    return 'I can only subtract numbers.';
   }
-  // test to be sure that both first and second are numbers.
-  // if so, return the result. Otherwise, return the string
-  // "I can only subtract numbers."
+}
+// test to be sure that both first and second are numbers.
+// if so, return the result. Otherwise, return the string
+// "I can only subtract numbers."
 
 
 
@@ -139,27 +137,28 @@ function carefulSubtract (a, b) {
  * @returns {} a meessage about unknown, or the square of unknown if it is a number
  */
 function typeTester (unknown) {
-  if (typeof unknown == "string") {
-    return unknown + " yay!";
-  } else if (typeof unknown == "number") {
+  if (typeof unknown == 'string') {
+    return unknown + ' yay!';
+  } else if (typeof unknown == 'number') {
     return (unknown*unknown);
-  } else if (typeof unknown == "null") {
-    return "Sorry, I can\'t do anything with a undefined value.";
+  } else if (typeof unknown == 'undefined') {
+    return 'Sorry, I can\'t do anything with a undefined value.';
   } else {
-    return "I don\'t know how to use that kind of variable.";
+    return 'I don\'t know how to use that kind of variable.';
   }
   
 
 
 
-   // use an if/else construction, a switch/case , or any other branching logic. Remember to
+  // use an if/else construction, a switch/case , or any other branching logic. Remember to
   // return a value. 
 
 
 
-// DO NOT MODIFY -- FOR AUTOMATED TESTING ONLY
-// MODIFYING THIS CODE WILL ALMOST CERTAINLY CAUSE YOUR TESTS TO BREAK
-// AND YOUR ASSIGNMENT TO FAIL!
+  // DO NOT MODIFY -- FOR AUTOMATED TESTING ONLY
+  // MODIFYING THIS CODE WILL ALMOST CERTAINLY CAUSE YOUR TESTS TO BREAK
+  // AND YOUR ASSIGNMENT TO FAIL!
+
 var exports;
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
