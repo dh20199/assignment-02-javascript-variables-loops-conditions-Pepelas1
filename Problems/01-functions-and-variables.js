@@ -45,8 +45,9 @@ function hello () {
  * @returns {string} a sentence that uses NAME i nits construction.
  */
 function greeting(name) {
+  let name = "Ms. Atwood";
   let output = "Hello" + name + "!";
-  return output
+  return output;
   // use the '+' operator to combine
   // strings.  So for instance, if I wanted to
   // say goodbye, I might write
