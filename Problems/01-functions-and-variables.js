@@ -30,9 +30,8 @@
  * greet the user!
  * @returns {string} should be exactly "Hello!"
  */
-function hello() {
-  return 'Hello!';
-
+function hello(greeting) {
+  return "Hello!";
 }
 
 // Problem 2
