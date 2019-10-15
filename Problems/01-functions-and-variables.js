@@ -32,9 +32,7 @@
  */
 function hello () {
   return "Hello!";
-  // if you want you can declare a string variable first
-  // or in this case you can just return the string directly
-  // with something like "return 'Hello!'"
+
 }
 
 // Problem 2
@@ -47,6 +45,8 @@ function hello () {
  * @returns {string} a sentence that uses NAME i nits construction.
  */
 function greeting(name) {
+  let output = "Hello" + name + "!";
+  return output
   // use the '+' operator to combine
   // strings.  So for instance, if I wanted to
   // say goodbye, I might write
