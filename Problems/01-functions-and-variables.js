@@ -30,7 +30,7 @@
  * greet the user!
  * @returns {string} should be exactly "Hello!"
  */
-function hello () {
+function hello() {
   return "Hello!";
 
 }
@@ -45,7 +45,6 @@ function hello () {
  * @returns {string} a sentence that uses NAME i nits construction.
  */
 function greeting(name) {
-  name= 'Ms. Atwood'
   return 'Hello, ' + name + '!';
   
   // use the '+' operator to combine
@@ -88,7 +87,7 @@ function returnArray() {
  * @param {} thisArray of minimum length 3
  * @returns {string} a sentence  composed from the first 3 elements of the array
  */
-function splitArray () {
+function splitArray() {
   thisArray= ['Tim', 'Horton', 'Donut'];
   return thisArray[0] + " " + thisArray[1] + " " + "was a " + thisArray[2] + ".";
   // remember you can access individual elements of an array with
