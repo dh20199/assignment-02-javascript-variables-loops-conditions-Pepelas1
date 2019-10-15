@@ -84,9 +84,9 @@ function returnArray(first, second, third) {
  * @param {} thisArray of minimum length 3
  * @returns {string} a sentence  composed from the first 3 elements of the array
  */
-function splitArray('Augustus', 'Ceasar', 'emperor') {
-  thisArray= ['Augustus', 'Ceasar', 'emperor'];
-  return thisArray[0] + " " + thisArray[1] + " " + "was an " + thisArray[2] + ".";
+function splitArray(first, second, third) {
+  thisArray= [first, second, third];
+  return thisArray[0] + " " + thisArray[1] + " " + "was a " + thisArray[2] + ".";
 
   }
   // remember you can access individual elements of an array with
