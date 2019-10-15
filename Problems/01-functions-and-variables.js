@@ -30,7 +30,9 @@
  * greet the user!
  * @returns {string} should be exactly "Hello!"
  */
-function hello () {
+function hello (greeting) {
+  let greeting= "Hello!";
+  return greeting;
   // if you want you can declare a string variable first
   // or in this case you can just return the string directly
   // with something like "return 'Hello!'"
