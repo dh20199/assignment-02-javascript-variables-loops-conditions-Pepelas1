@@ -32,27 +32,28 @@
  */
 function hello() {
   return "Hello!";
-
 }
-
 // Problem 2
 // Improve your initial function by accepting a parameter
 // "name" and returning a string "Hello, [insert name]!"
+function greeting(name) {
+  return "Hello, " + name + "!"; 
+}
+  
 
 /**
  * create a string "Hello, NAME!",where NAME is the  parameter value
  * @param {string} name
  * @returns {string} a sentence that uses NAME i nits construction.
  */
-function greeting(name) {
-  return 'Hello, ' + name + '!';
+
   
   // use the '+' operator to combine
   // strings.  So for instance, if I wanted to
   // say goodbye, I might write
   // let parting = "Goodbye, " + name + ".";
   // (but of course, I actually want to say hello.)
-}
+
 
 // Problem 3
 // write a function that takes three parameters and returns an array
@@ -64,11 +65,7 @@ function greeting(name) {
  * @param {} third
  * @returns {array} 
  */
-function returnArray(first, second, third) {
-  let array= [first, second, third]
-  return array; 
-  
-}
+
 
 
 // Problem 4
@@ -84,10 +81,8 @@ function returnArray(first, second, third) {
  * @param {} thisArray of minimum length 3
  * @returns {string} a sentence  composed from the first 3 elements of the array
  */
-function splitArray(thisArray) {
-  return thisArray[0] + " " + thisArray[1] + " " + "was a " + thisArray[2] + "."
 
-  }
+  
   // remember you can access individual elements of an array with
   // array[0]
   // array[1]
@@ -104,22 +99,15 @@ function splitArray(thisArray) {
  * @param {number} number2
  * @returns {number} the difference of the two parameters
  */
-function subtract(number1, number2) {
-  return number1- number2; 
-}
+
 
 
 //B. Write a slightly more complex number that only performs the subtraction after testing to be
 // sure that both parameters are numbers. If so, return the result. If not, return the string
 // "I can only subtract numbers."
 
-function carefulSubtract (a, b) {
-  if (typeof a=="number"&&typeof b=="number") {
-    return a-b;
-   } else {
-     return "I can only subtract numbers.";
-   }
-  }
+function carefulSubtract (a, b) 
+
   // test to be sure that both first and second are numbers.
   // if so, return the result. Otherwise, return the string
   // "I can only subtract numbers."
@@ -138,16 +126,7 @@ function carefulSubtract (a, b) {
  * @param {} unknown
  * @returns {} a meessage about unknown, or the square of unknown if it is a number
  */
-function typeTester (unknown) {
-  if (typeof unknown == "string") {
-    return unknown + " yay!";
-  } else if (typeof unknown == "number") {
-    return (unknown*unknown);
-  } else if (typeof unknown == "null") {
-    return "Sorry, I can\'t do anything with a undefined value.";
-  } else {
-    return "I don\'t know how to use that kind of variable.";
-  }
+
   
 
 
@@ -181,4 +160,4 @@ for (let i in functions) {
 // exports.greeting = greeting;
 // exports.returnArray = returnArray;
 // exports.splitArray = splitArray;
-}
+
