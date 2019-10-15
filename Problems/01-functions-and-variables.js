@@ -108,7 +108,7 @@ function splitArray () {
  * @returns {number} the difference of the two parameters
  */
 function subtract(number1, number2) {
-  // subtract number2 from number1, and return the result.
+  return number1- number2; 
 }
 
 
