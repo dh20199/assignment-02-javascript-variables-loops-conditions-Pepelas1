@@ -114,18 +114,17 @@ function subtract(number1, number2) {
 // sure that both parameters are numbers. If so, return the result. If not, return the string
 // "I can only subtract numbers."
 
-function carefulSubtract (number1, number2) {
-  if (typeof number1 ==='number'&&number2=== 'number') {
-    return number1-number2;
+function carefulSubtract (a, b) {
+  if (typeof a=="number"&&typeof b=="number") {
+    return a-b;
    } else {
      return "I can only subtract numbers";
    }
-    
+  }
   // test to be sure that both first and second are numbers.
   // if so, return the result. Otherwise, return the string
   // "I can only subtract numbers."
 
-}
 
 
 
