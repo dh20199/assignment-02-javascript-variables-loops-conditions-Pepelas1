@@ -84,9 +84,8 @@ function returnArray(first, second, third) {
  * @param {} thisArray of minimum length 3
  * @returns {string} a sentence  composed from the first 3 elements of the array
  */
-function splitArray(first, second, third) {
-  thisArray= [first, second, third];
-  return thisArray[0] + " " + thisArray[1] + " " + "was a " + thisArray[2] + ".";
+function splitArray(thisArray) {
+  return thisArray[0] + " " + thisArray[1] + " " + "was a " + thisArray[2] + "."
 
   }
   // remember you can access individual elements of an array with
@@ -145,9 +144,9 @@ function typeTester (unknown) {
   } else if (typeof unknown == "number") {
     return (unknown*unknown);
   } else if (typeof unknown == "null") {
-    return "Sorry, I cannot do anything with a null value.";
+    return "Sorry, I can\'t do anything with a null value.";
   } else {
-    return "Sorry, I cannot do anything with an undefined value.";
+    return "Sorry, I can\'t do anything with an undefined value.";
   }
   }
   
