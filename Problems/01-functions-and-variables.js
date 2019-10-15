@@ -64,10 +64,10 @@ function greeting(name) {
  * @param {} third
  * @returns {array} 
  */
-function returnArray() {
-  let first= 'Tim';
-  let second= 'Horton';
-  let third= 'Donuts';
+function returnArray('first', 'second', 'third') {
+  let first= 'Franklin';
+  let second= 'Delano';
+  let third= 'Roosevelt';
   let array= [first , second , third];
   return array; 
   
