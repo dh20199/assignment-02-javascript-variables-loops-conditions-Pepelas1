@@ -104,8 +104,8 @@ function splitArray(thisArray) {
  * @param {number} number2
  * @returns {number} the difference of the two parameters
  */
-function subtract(number1, number2) {
-  return number1- number2; 
+function subtract(a, b) {
+  return a-b; 
 }
 
 
@@ -144,9 +144,9 @@ function typeTester (unknown) {
   } else if (typeof unknown == 'number') {
     return (unknown*unknown);
   } else if (typeof unknown == 'undefined') {
-    return 'Sorry, I cannot do anything with a null value.';
+    return 'Sorry, I can\'t do anything with an undefined value.';
   } else {
-    return 'Sorry, I cannot do anything with an undefined value.';
+    return 'I don\'t know how to use that kind of variable.';
   }
 }
   
