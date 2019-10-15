@@ -65,12 +65,12 @@ function greeting(name) {
  * @param {} third
  * @returns {array} 
  */
-function returnArray () {
-  let first= 'George Clemenceau';
-  let second= 'David Lloyd George';
-  let third= 'Woodrow Wilson';
-  let bigThree= [first , second , third];
-  return bigThree +  ' ' + 'were the Big Three leaders of the peace process following WWI.'; 
+function returnArray() {
+  let first= 'Franklin';
+  let second= 'Delano';
+  let third= 'Roosevelt';
+  let president= [first , second , third];
+  return president; 
   
 }
 
