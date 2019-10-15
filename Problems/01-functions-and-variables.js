@@ -94,7 +94,7 @@ function splitArray(first, second, third) {
   // array[1]
   // etc.
 
-}
+
 
 // Problem 5
 // A. Write a simple function that takes two arguments.  Subtact the second number from the first.
