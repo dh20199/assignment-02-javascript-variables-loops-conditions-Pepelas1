@@ -66,11 +66,11 @@ function greeting(name) {
  * @returns {array} 
  */
 function returnArray() {
-  let first= 'Franklin';
-  let second= 'Delano';
-  let third= 'Roosevelt';
-  let president= [first , second , third];
-  return president; 
+  let first= 'Tim';
+  let second= 'Horton';
+  let third= 'Donuts';
+  let array= [first , second , third];
+  return array; 
   
 }
 
