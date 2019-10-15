@@ -90,7 +90,7 @@ function returnArray() {
  */
 function splitArray () {
   thisArray= ['Tim', 'Horton', 'Donut'];
-  return thisArray[0] + " " + thisArray[1] + " " + "was a " + thisArray[2];
+  return thisArray[0] + " " + thisArray[1] + " " + "was a " + thisArray[2] + ".";
   // remember you can access individual elements of an array with
   // array[0]
   // array[1]
