@@ -147,7 +147,7 @@ function typeTester (unknown) {
   } else if (typeof unknown == "null") {
     return "Sorry, I cannot do anything with a null value.";
   } else {
-    return"I do not know how to use that kind of variable.";
+    return "Sorry, I cannot do anything with an undefined value.";
   }
   }
   
