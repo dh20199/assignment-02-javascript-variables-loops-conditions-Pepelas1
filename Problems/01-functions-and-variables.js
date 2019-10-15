@@ -118,7 +118,7 @@ function carefulSubtract (a, b) {
   if (typeof a=="number"&&typeof b=="number") {
     return a-b;
    } else {
-     return "I can only subtract numbers";
+     return "I can only subtract numbers.";
    }
   }
   // test to be sure that both first and second are numbers.
