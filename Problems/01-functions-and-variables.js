@@ -26,34 +26,35 @@
 // Problem 1
 // write a function "hello" that always returns the string "Hello!"
 
+
 /**
  * greet the user!
  * @returns {string} should be exactly "Hello!"
  */
-function hello() {
-  return "Hello!";
+function hello () {
+  return 'Hello!';
+  // if you want you can declare a string variable first
+  // or in this case you can just return the string directly
+  // with something like "return 'Hello!'"
 }
+
 // Problem 2
 // Improve your initial function by accepting a parameter
 // "name" and returning a string "Hello, [insert name]!"
-function greeting(name) {
-  return "Hello, " + name + "!"; 
-}
-  
 
 /**
  * create a string "Hello, NAME!",where NAME is the  parameter value
  * @param {string} name
  * @returns {string} a sentence that uses NAME i nits construction.
  */
-
-  
+function greeting(name) {
+  return 'Hello, ' + name + '!';
   // use the '+' operator to combine
   // strings.  So for instance, if I wanted to
   // say goodbye, I might write
   // let parting = "Goodbye, " + name + ".";
   // (but of course, I actually want to say hello.)
-
+}
 
 // Problem 3
 // write a function that takes three parameters and returns an array
@@ -65,7 +66,10 @@ function greeting(name) {
  * @param {} third
  * @returns {array} 
  */
-
+function returnArray (first, second, third) {
+  // you can define the array using "new Array ()" or just "[ , , ]"
+  // don't forget to return it
+}
 
 
 // Problem 4
@@ -81,14 +85,13 @@ function greeting(name) {
  * @param {} thisArray of minimum length 3
  * @returns {string} a sentence  composed from the first 3 elements of the array
  */
-
-  
+function splitArray (thisArray) {
   // remember you can access individual elements of an array with
   // array[0]
   // array[1]
   // etc.
 
-
+}
 
 // Problem 5
 // A. Write a simple function that takes two arguments.  Subtact the second number from the first.
@@ -99,19 +102,21 @@ function greeting(name) {
  * @param {number} number2
  * @returns {number} the difference of the two parameters
  */
-
+function subtract(number1, number2) {
+  // subtract number2 from number1, and return the result.
+}
 
 
 //B. Write a slightly more complex number that only performs the subtraction after testing to be
 // sure that both parameters are numbers. If so, return the result. If not, return the string
 // "I can only subtract numbers."
 
-function carefulSubtract (a, b) 
-
+function carefulSubtract (first, second) {
   // test to be sure that both first and second are numbers.
   // if so, return the result. Otherwise, return the string
   // "I can only subtract numbers."
 
+}
 
 
 
@@ -126,13 +131,10 @@ function carefulSubtract (a, b)
  * @param {} unknown
  * @returns {} a meessage about unknown, or the square of unknown if it is a number
  */
-
-  
-
-
-
-   // use an if/else construction, a switch/case , or any other branching logic. Remember to
+function typeTester (unknown) {
+  // use an if/else construction, a switch/case , or any other branching logic. Remember to
   // return a value. 
+}
 
 
 
@@ -160,4 +162,3 @@ for (let i in functions) {
 // exports.greeting = greeting;
 // exports.returnArray = returnArray;
 // exports.splitArray = splitArray;
-
