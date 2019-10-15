@@ -181,3 +181,4 @@ for (let i in functions) {
 // exports.greeting = greeting;
 // exports.returnArray = returnArray;
 // exports.splitArray = splitArray;
+}
